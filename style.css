@@ -3,6 +3,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 button{
     background-color: hsl(180, 66%, 49%) !important;
 }
@@ -10,10 +11,12 @@ button{
 a {
     font-weight:500;
     margin-left: 16px;
+   
 }
 
+
 .a{
-    margin-left: 00px;;
+    margin-left: 500px;;
 }
 
 .space{
@@ -58,6 +61,7 @@ a {
     margin-left: 20px;
     margin-top: 10px;
     font-size: 22px;
+
 }
 
 
@@ -137,6 +141,7 @@ a {
 .footer{
     height: 250px;
     background-color: hsl(257, 27%, 26%);
+    width: 100% !important;
 }
 
 
@@ -157,6 +162,9 @@ a {
     display: none;
 }
 
+ .pNav{
+     display: none;
+ }
 .section1 p{
     font-size: 24px;
     line-height: 30px;
@@ -170,7 +178,18 @@ a {
 
 @media all and (max-width: 560px){
 
+    .a{
+        margin-left: 0px;
+       
+    }
+
+  
+
     .phone{
+        display: block;
+    }
+
+    .pNav{
         display: block;
     }
  
@@ -243,6 +262,7 @@ a {
 
       .footer {
           height: auto;
+          width: 100% !;
       }
 
       .footer-links img{
@@ -252,7 +272,27 @@ a {
     .list1{
         margin-left: 0px;
     }
+
+    .naV {
+        background-color: hsl(257, 27%, 26%);
+    }
+
+    #lin{
+        color: white;
+        line-height: 50px;
+        
+    }
+
+    .linB{
+        color: white;
+        margin-left: 10px;
+        
+    }
+
     
+
+
+   
 
 
 }
