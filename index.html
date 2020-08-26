@@ -13,7 +13,7 @@
   <body>
    
     <nav class="navbar navbar-toggleable-md navbar-light bg-white">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" style="background-color: hsl(180, 66%, 49%);" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <h3>Shortly</h3>
@@ -29,11 +29,12 @@
             <li class="nav-item ">
               <a class="nav-link text-center" href="#" id="lin">Resources</a>
             </li>
+            <div class="line"></div>
             <li class="nav-item a">
               <a class="nav-link text-center" href="#" id="lin">Login</a>
             </li>
           </ul>
-          <div class="text-center"> <button class="btn btn-primary my-2 my-sm-0 linB" style="border-radius: 50px;" type="submit">Sign up</button></div>
+          <div class="text-center"> <button class="btn btn-primary my-2 my-sm-0 linB" style="border-radius: 500px; background-color: hsl(180, 66%, 49%);" type="submit">Sign up</button></div>
         </div>
         </nav>
         <div class="space"></div>
@@ -43,7 +44,7 @@
                 <div class="col-md-6 sect1">
                     <h2 >More than just shorter links</h2>
                     <p>Build your brands recognition and get detailed<br> insight on how your links are performing</p>
-                    <button class="btn btn-primary my-2 my-sm-0 " style="border-radius: 50px;" type="submit">Get Started</button>
+                    <button class="btn btn-primary my-2 my-sm-0 " style="border-radius: 50px; background-color: hsl(180, 66%, 49%);" type="submit">Get Started</button>
                 </div>
                 <div class="col-md-6">
                     <img class="img1 img-fluid" src="img/img1.svg" alt="">
@@ -57,79 +58,18 @@
             <div class="sect2">
                 <br><br>
                 <form id="form" class="form-inline col-12 mr-0 pr-1 col-md- forms">
-                    <input type="text" class="form-control form-control-lg col-9" placeholder="Shorten your link here" >
-                    <button button type="submit" name="submit" class="btn btn-lg form-but" style="background-color: blue; margin-left: 10px;">Shorten it!</button>
+                    <input type="text" id="link" class="form-control form-control-lg col-9" placeholder="Shorten your link here" >
+                    <button button type="submit" name="submit" id="but" class="btn btn-lg form-but" style=" background-color: hsl(180, 66%, 49%); margin-left: 10px;">Shorten it!</button>
 
             </div>
+          </div>
             
             <br>
-            <div class="sect3">
-                <div class="row">
-                    <h4 class="sect3P1">https://www.frontendmentor.io</h4>
-                    <a href="#" class="sect3P2">https://rel.ink/k4IKYK</a>
-                    <button class="btn btn-primary my-2 my-sm-0 " style="border-radius: 10px;" type="submit">Copy</button>
-                   
-                </div>
-            </div>
-            <br>
-            <div class="sect3">
-                <div class="row">
-                    <h4 class="sect3P1">https://twitter.com/frontendmentor</h4>
-                    <a href="#" class="sect3P2">https://rel.ink/gxOXpa</a>
-                    <button class="btn btn-primary my-2 my-sm-0 " style="border-radius: 10px;" type="submit">Copied!</button>
-                   
-                </div>
-            </div>
-            <br>
-            <div class="sect3">
-                <div class="row">
-                    <h4 class="sect3P1">https://www.frontendmentor.io</h4>
-                    <a href="#" class="sect3P2">https://rel.ink/k4IKYK</a>
-                    <button class="btn btn-primary my-2 my-sm-0 " style="border-radius: 10px;" type="submit">Copy</button>
-                  </div>       
-                </div>
-            </div>
-            <!--Phone View -->
-            <div class="container phone">
-              <div class="Psect2">
-                  <br><br>
-                  <form id="form" class="form-inline col-12 mr-0 pr-1 col-md- Pforms">
-                      <input type="text" class="form-control form-control-lg col-9" placeholder="Shorten your link here" >
-                        
-                      <button button type="submit" name="submit" class="btn btn-lg form-but" style="background-color: blue; margin-left: 10px;">Shorten it!</button>
-  
-              </div>
-        </div>
-        <br>
-            <div class="Psect3 phone">
-                <div class="row">
-                    <h4 class="sect3P1">https://www.frontendmentor.io</h4>
-                   
-                    <a href="#" class="sect3P2">https://rel.ink/k4IKYK</a>
-                    <button class="btn btn-primary my-2 my-sm-0 " style="border-radius: 10px;" type="submit">Copy</button>
-                   
-                </div>
-            </div>
-            <br>
-            <div class="Psect3 phone">
-                <div class="row">
-                    <h4 class="sect3P1">https://twitter.com/frontendmentor</h4>
-                    <a href="#" class="sect3P2">https://rel.ink/gxOXpa</a>
-                    <button class="btn btn-primary my-2 my-sm-0 " style="border-radius: 10px;" type="submit">Copied!</button>
-                   
-                </div>
-            </div>
-            <br>
-            <div class="Psect3 phone">
-                <div class="row">
-                    <h4 class="sect3P1">https://www.frontendmentor.io</h4>
-                    <a href="#" class="sect3P2">https://rel.ink/k4IKYK</a>
-                    <button class="btn btn-primary my-2 my-sm-0 " style="border-radius: 10px;" type="submit">Copy</button>
-                   
-                </div>
-            </div>
+            <ul id="items" class="list-group">
+              
+            </ul>
             <br><br><br><br><br>
-            <div class="container">
+            <div class="ntainer">
                 <section class="section1">
                     <h2 class="text-center">Advanced Statistics</h2>
                     <p class="text-center">Track how your links are performing across the web with our advanced ststistics dashboard</p>
@@ -137,7 +77,7 @@
             </div>
             <br><br><br>    
 
-            <div class="container">
+            <div class="">
                 <div class="row">
                   <div class="col-md-3 card1" >
                     <section class="section2">
@@ -167,12 +107,12 @@
             </div>
             <br><br><br><br><br>
             
-            <div class="container">
+            <div class="">
                 <div class="sect4">
                     <br><br>
                     <h2 class="text-white text-center">Boost your links today</h2>
                    <div class="text-center">
-                    <button class="btn btn-lg btn-primary text-center" style="border-radius: 40px;">Get Started</button>
+                    <button class="btn btn-lg btn-primary text-center" style="border-radius: 40px;  background-color: hsl(180, 66%, 49%);">Get Started</button>
                    </div>
                 </div>
             </div>
